@@ -9,9 +9,7 @@ import '../../domain/models/todo.dart';
 import '../../domain/repository/todo_repo.dart';
 
 class IsarTodoRepo implements TodoRepo {
-
   final Isar db;
-
   IsarTodoRepo(this.db);
 
   @override
